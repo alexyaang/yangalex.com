@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Jekyll Build & Serve",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/docs"
+            },
+            "command": "jekyll build && jekyll serve",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
